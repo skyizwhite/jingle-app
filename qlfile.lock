@@ -1,0 +1,16 @@
+("quicklisp" .
+ (:class qlot/source/dist:source-dist
+  :initargs (:distribution "http://beta.quicklisp.org/dist/quicklisp.txt" :%version :latest)
+  :version "2022-11-07"))
+("clack" .
+ (:class qlot/source/ql:source-ql
+  :initargs (:%version :latest)
+  :version "ql-2022-11-07"))
+("mito" .
+ (:class qlot/source/ql:source-ql
+  :initargs (:%version :latest)
+  :version "ql-2022-11-07"))
+("jingle" .
+ (:class qlot/source/git:source-git
+  :initargs (:remote-url "https://github.com/dnaeon/cl-jingle.git")
+  :version "git-efbf951c730b32ebc624e4a8784587dbe2d033d4"))
