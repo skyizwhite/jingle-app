@@ -13,4 +13,4 @@
 ("jingle" .
  (:class qlot/source/git:source-git
   :initargs (:remote-url "https://github.com/dnaeon/cl-jingle.git")
-  :version "git-efbf951c730b32ebc624e4a8784587dbe2d033d4"))
+  :version "git-1395bbf2d6b51bc31f676cb281094dbdc85a36ca"))
