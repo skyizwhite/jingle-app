@@ -13,7 +13,7 @@
 ("jingle" .
  (:class qlot/source/git:source-git
   :initargs (:remote-url "https://github.com/dnaeon/cl-jingle.git")
-  :version "git-3f781010fe1e1b6751f24a2dd53b8f673838b85b"))
+  :version "git-b8edf9a9caccffa599262caf6a77a7b3f542bd6f"))
 ("dexador" .
  (:class qlot/source/ql:source-ql
   :initargs (:%version :latest)
