@@ -2,7 +2,8 @@
   (:use #:cl)
   (:import-from #:jingle)
   (:import-from #:dexador)
-  (:import-from #:jonathan))
+  (:import-from #:jonathan)
+  (:export #:*app*))
 (in-package #:jingle-app/main)
 
 (defparameter *catfact-endpoint* "https://catfact.ninja/fact")
